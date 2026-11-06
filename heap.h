@@ -20,6 +20,7 @@ class Heap{
 
  private:
     std::vector<int> vdata; //store the binary heap tree as a dynamic array
+    void percolateDown(int i);
 };
 
 #endif
